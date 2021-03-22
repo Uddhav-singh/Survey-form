@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #00d8ff;
+    font-family: 'poppins','sons-serif';
+    text-align: center;
+    margin: 0;
+}
+
+form{
+    background-color: #fff;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+    padding: 30px 20px;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.form-control{
+    margin-bottom: 2px;
+    text-align: left;
+}
+
+.form-control label{
+   display: block;
+   margin: 6px;
+}
+
+.form-control input, .form-control select{
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-size: 14px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 100%;
+}
